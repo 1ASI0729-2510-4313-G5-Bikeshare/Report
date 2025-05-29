@@ -93,7 +93,7 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 |13|US13|Edición de información de una bicicleta|Como arrendador, quiero editar la información de mis bicicletas para actualizar detalles|3|
 |14|US14|Eliminación de una bicicleta|Como arrendador, quiero eliminar bicicletas que ya no deseo alquilar para mantener mi listado limpio y actualizado|2|
 |15|US18|Configuración de disponibilidad|Como arrendador, quiero establecer días y horas disponibles para cada bicicleta para evitar reservas en momentos no deseados|5|
-|16|US20|Búsqueda de bicicletas por ubicación y disponibilidad|Como arrendatario, quiero buscar bicicletas disponibles según mi ubicación y horario deseado para encontrar opciones convenientes|5|
+|16|US20|Búsqueda de estaciones de bicicletas cercanas con Google Maps|Como arrendatario, quiero buscar estaciones de bicicletas cercanas a mi ubicación utilizando Google Maps para encontrar opciones convenientes|8|
 |17|US21|Visualización de detalles de bicicletas|Como arrendatario, quiero ver información detallada de cada bicicleta incluyendo reseñas antes de alquilarla para tomar una decisión informada|3|
 |18|US22|Alquiler de bicicleta|Como arrendatario, quiero poder reservar una bicicleta por un periodo específico para utilizarla según mi necesidad|5|
 |19|US25|Pago del alquiler|Como arrendatario, quiero poder realizar el pago del alquiler dentro de la plataforma para asegurar la reserva de la bicicleta seleccionada|8|
