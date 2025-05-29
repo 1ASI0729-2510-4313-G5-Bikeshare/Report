@@ -260,11 +260,11 @@ A continuación, se muestran las capturas de los insights del repositorio de la 
       <td>Done</td>
     </tr>
     <tr>
-      <td>US08</td>
-      <td>Registro con cuenta de google</td>
+      <td>US20</td>
+      <td>Búsqueda de estaciones de bicicletas cercanas con Google Maps</td>
       <td>T03</td>
-      <td>Implementación de registro con cuenta de Google</td>
-      <td>Desarrollar la funcionalidad en el frontend para permitir a los usuarios registrarse utilizando su cuenta de Google</td>
+      <td>Implementación de búsqueda de estaciones de bicicletas</td>
+      <td>Desarrollar la funcionalidad en el frontend para permitir a los usuarios buscar las estaciones disponibles con Google Maps</td>
       <td>8</td>
       <td>Rodrigo Alaya Cabrera</td>
       <td>Done</td>
