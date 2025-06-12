@@ -115,14 +115,85 @@ https://trello.com/b/caq6CxCA/bikeshare-sprint-1
 
 ### Sprint 1
 
-| Id   | Title                   | Id   | Title               | Description                              | Estimation (Hours) | Assigned To     | Status (To-Do/In-Process/To-Review/Done) |
-|------|-------------------------|------|---------------------|------------------------------------------|-------------------|----------------|------------------------------------------|
-| US01 | Sección "Home"          | T01  | Barra de Navegación | Interacción con la Barra de navegación  | 1h                | Rodrigo Alaya Cabrera| Done                                     |
-| US01 | Sección "Home"          | T02  | Diseño del Hero     | Desarrollo del diseño de la sección principal | 2h          | Niurka Lucero Huarcaya Quispe | Done                                     |
-| US02 | Sección "Our system"    | T01  | Diseño de our system    | Desarrollo del diseño de la sección our system| 2h          | Maria Fernanda Mostajo Orosco | Done                                     |
-| US03 | Sección "Be a partner"  | T01  | Diseño de be a partner| Desarrollo del diseño de la sección be a partner | 2h | Karen Stephanie Ramos Carpio | Done             |
-| US04 | Sección "Reviews"       | T01  | Barra de reviews | Interacción con reviews  | 1h                | José Luis Martinez Valdivia | Done                                     |
-| US05 | Cambio de idioma        | T01  | Diseño del idioma     | Desarrollo del diseño del cambio de idioma | 2h          | José Luis Martinez Valdivia | Done                                     |
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td colspan="2" align="center"><b>Sprint #</b></td>
+    <td colspan="6" align="center"><b>Sprint 1</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Task Id</b></td>
+    <td><b>Task Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Sección Home</td>
+    <td>T1</td>
+    <td>Barra de Navegación</td>
+    <td>Interacción con la Barra de navegación	</td>
+    <td>1</td>
+    <td>Rodrigo Alaya Cabrera	</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T2</td>
+    <td>Diseño del Hero</td>
+    <td>Desarrollo del diseño de la sección principal</td>
+    <td>2</td>
+    <td>Niurka Lucero Huarcaya Quispe	</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Sección "Our System"</td>
+    <td>T1</td>
+    <td>Diseño de our system</td>
+    <td>Desarrollo del diseño de la sección our system</td>
+    <td>2</td>
+    <td>Maria Fernanda Mostajo Orosco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Sección "Be a partner"	</td>
+    <td>T1</td>
+    <td>Diseño de be a partner</td>
+    <td>Desarrollo del diseño de la sección be a partner	</td>
+    <td>2</td>
+    <td>Karen Stephanie Ramos Carpio</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Sección "Reviews"	</td>
+    <td>T1</td>
+    <td>Barra de reviews	</td>
+    <td>Interacción con reviews	</td>
+    <td>1</td>
+    <td>José Luis Martinez Valdivia	</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Cambio de idioma	</td>
+    <td>T1</td>
+    <td>Diseño del idioma	</td>
+    <td>Desarrollo del diseño del cambio de idioma</td>
+    <td>2</td>
+    <td>José Luis Martinez Valdivia	</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+</table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
