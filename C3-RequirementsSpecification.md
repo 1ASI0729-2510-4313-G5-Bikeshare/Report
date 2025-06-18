@@ -101,18 +101,19 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 |17|US14|Eliminación de una bicicleta|Como arrendador, quiero eliminar bicicletas que ya no deseo alquilar para mantener mi listado limpio y actualizado|2|
 |18|US15|Historial de reservas|Como arrendador, quiero visualizar un historial de historial de reservas completadas y canceladas de mis bicicletas para conocer la demanda y evaluar ingresos|3|
 |19|US16|Dashboard del arrendador|Como arrendador, quiero visualizar un dashboard con estadísticas (ingresos, reservas, rating) y feed de actividad para tener una visión clara del rendimiento de mis bicicletas|5|
-|20|US17|Calificaciones y comentarios de arrendatarios|Como arrendador, quiero ver calificaciones y comentarios de arrendatarios para mejorar el servicio que ofrezco|3|
-|21|US24|Calificación de bicicleta y arrendador|Como arrendatario, quiero calificar la bicicleta y arrendador al dejar un comentario tras una reserva para ayudar a otros usuarios a elegir mejor|3|
-|22|US26|Comunicación con el arrendador|Como arrendatario, quiero poder contactar con el arrendador antes y durante el alquiler para coordinar la entrega o resolver dudas|3|
-|23|US19|Comunicación con el arrendatario|Como arrendador, quiero poder contactar al arrendatario para resolver dudas o emergencias|3|
-|24|US29|Gestión de notificaciones|Como usuario de ambos segmentos, quiero recibir y ver notificaciones en tiempo real sobre reservas y mensajes, para estar informado al instante sobre cualquier actividad relevante|3|
-|25|US27|Sistema de Soporte con Tickets|Como usuario de ambos segmentos, quiero poder reportar problemas con la plataforma mediante tickets para mejorar la calidad del servicio|3|
-|26|US28|Términos y condiciones|Como usuario de ambos segmentos, quiero tener acceso a términos y condiciones claros para entender mis derechos como arrendador y arrendatario|1|
-|27|US07|Registro de usuario|Como usuario, quiero poder elegir si quiero registrarme como arrendador o arrendatario desde la pantalla principal y completar mi registro con mi correo electrónico y contraseña para acceder a la plataforma|3|
-|28|US09|Inicio de sesión|Como usuario registrado, quiero poder iniciar sesión con mis credenciales para acceder a mi cuenta y funcionalidades|5|
-|29|US11|Cierre de sesión|Como usuario, quiero cerrar sesión de forma segura para proteger mi cuenta cuando dejo de usar la plataforma|2|
-|30|US10|Edición de datos personales|Como usuario, quiero poder actualizar mi perfil y datos personales para mantener mi información actualizada|3|
-|31|US08|Recuperación de contraseña|Como usuario registrado, quiero solicitar un enlace para restablecer contraseña si la olvido|3|
+|20|US25|Pago del alquiler|Como arrendatario, quiero poder realizar el pago del alquiler dentro de la plataforma para asegurar la reserva de la bicicleta seleccionada|5|
+|21|US17|Calificaciones y comentarios de arrendatarios|Como arrendador, quiero ver calificaciones y comentarios de arrendatarios para mejorar el servicio que ofrezco|3|
+|22|US24|Calificación de bicicleta y arrendador|Como arrendatario, quiero calificar la bicicleta y arrendador al dejar un comentario tras una reserva para ayudar a otros usuarios a elegir mejor|3|
+|23|US26|Comunicación con el arrendador|Como arrendatario, quiero poder contactar con el arrendador antes y durante el alquiler para coordinar la entrega o resolver dudas|3|
+|24|US19|Comunicación con el arrendatario|Como arrendador, quiero poder contactar al arrendatario para resolver dudas o emergencias|3|
+|25|US29|Gestión de notificaciones|Como usuario de ambos segmentos, quiero recibir y ver notificaciones en tiempo real sobre reservas y mensajes, para estar informado al instante sobre cualquier actividad relevante|3|
+|26|US27|Sistema de Soporte con Tickets|Como usuario de ambos segmentos, quiero poder reportar problemas con la plataforma mediante tickets para mejorar la calidad del servicio|3|
+|27|US28|Términos y condiciones|Como usuario de ambos segmentos, quiero tener acceso a términos y condiciones claros para entender mis derechos como arrendador y arrendatario|1|
+|28|US07|Registro de usuario|Como usuario, quiero poder elegir si quiero registrarme como arrendador o arrendatario desde la pantalla principal y completar mi registro con mi correo electrónico y contraseña para acceder a la plataforma|3|
+|29|US09|Inicio de sesión|Como usuario registrado, quiero poder iniciar sesión con mis credenciales para acceder a mi cuenta y funcionalidades|5|
+|30|US11|Cierre de sesión|Como usuario, quiero cerrar sesión de forma segura para proteger mi cuenta cuando dejo de usar la plataforma|2|
+|31|US10|Edición de datos personales|Como usuario, quiero poder actualizar mi perfil y datos personales para mantener mi información actualizada|3|
+|32|US08|Recuperación de contraseña|Como usuario registrado, quiero solicitar un enlace para restablecer contraseña si la olvido|3|
 
 Para la gestión de tareas y organización del backlog, se utiliza Trello como herramienta principal, asegurando que todas las tareas estén claramente organizadas y asignadas.
 
