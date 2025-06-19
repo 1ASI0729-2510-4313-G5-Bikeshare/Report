@@ -575,7 +575,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
   <thead>
     <tr>
       <th>Sprint #</th>
-      <th colspan="7">Sprint 2</th>
+      <th colspan="7">Sprint 3</th>
     </tr>
     <tr>
       <th colspan="2">User Story</th>
@@ -594,17 +594,102 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
   </thead>
   <tbody>
     <tr>
-      <td>US0</td>
-      <td> </td>
+      <td rowspan="3">US22</td>
+      <td rowspan="3">Alquiler de bicicleta</td>
       <td>T01</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+      <td>Diseño e implementación del modelo de renta en la base de datos</td>
+      <td>Diseñar e implementar la entidad Rental en la base de datos y asegurarse de que se cumplen las reglas del dominio</td>
+      <td>5 hr</td>
       <td> </td>
       <td> </td>
     </tr>
     <tr>
- 
+      <td>T02</td>
+      <td>Implementar Servicios y API REST para crear rentas</td>
+      <td>Exponer endpoint POST /api/v1/rentals</td>
+      <td>6 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Formulario de reserva con selección de minutos</td>
+      <td>Mejorar vista de reservas</td>
+      <td>4 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td rowspan="3">US12</td>
+      <td rowspan="3">Registro de una bicicleta</td>
+      <td>T04</td>
+      <td>Modelar entidad Bike</td>
+      <td>Crear Aggregate Bike y lógica para registro de bicicletas</td>
+      <td>5 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Crear Bike API</td>
+      <td>Implementar el caso de uso y endpoint POST /api/v1/bikes</td>
+      <td>6 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Formulario de creación de bicleta</td>
+      <td>Diseño del formulario, integración con backend</td>
+      <td>4 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td rowspan="1">US21</td>
+      <td rowspan="1">Visualización de detalles de bicicletas</td>
+      <td>T04</td>
+      <td>Obtener detalles de bicicletas</td>
+      <td>Implementar endpoint GET /api/v1/bikes/{id} para mostrar toda la información necesaria</td>
+      <td>4 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+     <tr>
+      <td rowspan="2">US23</td>
+      <td rowspan="2">Gestión de alquileres</td>
+      <td>T04</td>
+      <td>Listar las rentas de arrendatario</td>
+      <td>Implementar endpoint GET /api/v1/{userId}/rentals para mostrar todas las reservas del arrendatario</td>
+      <td>4 hr</td>
+      <td> </td>
+      <td> </td>
+    <tr>
+      <td>T03</td>
+      <td>Cancelación de reserva</td>
+      <td>Implementar endpoint para cancelar una reserva del arrendatario</td>
+      <td>4 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    </tr>
+    <tr>
+      <td rowspan="2">US17</td>
+      <td rowspan="2">Calificaciones y comentarios de arrendatarios</td>
+      <td>T04</td>
+      <td>Modelar entidad Review</td>
+      <td>Crear Aggregate Review y lógica para registro de reseñas</td>
+      <td>5 hr</td>
+      <td> </td>
+      <td> </td>
+    <tr>
+      <td>T03</td>
+      <td>Listar las reseñas</td>
+      <td>Implementar endpoint para mostrar todas las reseñas del arrendatario</td>
+      <td>4 hr</td>
+      <td> </td>
+      <td> </td>
+    </tr>
   </tbody>
 </table>
 
