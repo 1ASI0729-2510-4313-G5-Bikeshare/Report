@@ -630,7 +630,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td> </td>
     </tr>
     <tr>
-      <td>T02</td>
+      <td>T05</td>
       <td>Crear Bike API</td>
       <td>Implementar el caso de uso y endpoint POST /api/v1/bikes</td>
       <td>6 hr</td>
@@ -638,7 +638,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td> </td>
     </tr>
     <tr>
-      <td>T03</td>
+      <td>T06</td>
       <td>Formulario de creación de bicleta</td>
       <td>Diseño del formulario, integración con backend</td>
       <td>4 hr</td>
@@ -648,7 +648,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
     <tr>
       <td rowspan="1">US21</td>
       <td rowspan="1">Visualización de detalles de bicicletas</td>
-      <td>T04</td>
+      <td>T07</td>
       <td>Obtener detalles de bicicletas</td>
       <td>Implementar endpoint GET /api/v1/bikes/{id} para mostrar toda la información necesaria</td>
       <td>4 hr</td>
@@ -658,14 +658,14 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
      <tr>
       <td rowspan="2">US23</td>
       <td rowspan="2">Gestión de alquileres</td>
-      <td>T04</td>
+      <td>T08</td>
       <td>Listar las rentas de arrendatario</td>
       <td>Implementar endpoint GET /api/v1/{userId}/rentals para mostrar todas las reservas del arrendatario</td>
       <td>4 hr</td>
       <td> </td>
       <td> </td>
     <tr>
-      <td>T03</td>
+      <td>T09</td>
       <td>Cancelación de reserva</td>
       <td>Implementar endpoint para cancelar una reserva del arrendatario</td>
       <td>4 hr</td>
@@ -676,14 +676,14 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
     <tr>
       <td rowspan="2">US17</td>
       <td rowspan="2">Calificaciones y comentarios de arrendatarios</td>
-      <td>T04</td>
+      <td>T10</td>
       <td>Modelar entidad Review</td>
       <td>Crear Aggregate Review y lógica para registro de reseñas</td>
       <td>5 hr</td>
       <td> </td>
       <td> </td>
     <tr>
-      <td>T03</td>
+      <td>T11</td>
       <td>Listar las reseñas</td>
       <td>Implementar endpoint para mostrar todas las reseñas del arrendatario</td>
       <td>4 hr</td>
