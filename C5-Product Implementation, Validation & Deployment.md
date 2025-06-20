@@ -707,44 +707,35 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 
 <br>
 
-<table  align="left" border="1" width="100%">
+<table border="1">
+  <thead>
     <tr>
-        <th>Repository</th>
-        <th>Branch</th>
-        <th>Commit ID</th>
-        <th>Commit Message</th>
-        <th>Commit Message Body</th>
-        <th>Commited on (Date)</th>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
     </tr>
-    <tr>
-        <td rowspan=6> </td>
-        <td></td>
-        <td> </td>
-        <td>  </td>
-        <td>-</td>
-        <td> </td>
-    </tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>-</td>
-        <td> </td>
-    <tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>-</td>
-        <td> </td>
-    <tr>
-    <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>-</td>
-        <td> </td>
-    <tr>
+  </thead>
+  <tbody>
+    <tr><td>Backend</td><td>master</td><td>1b049b9</td><td>feat: add auditable models</td><td></td><td>Jun 18, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>0e2c3c4</td><td>feat: add functional API uwu</td><td></td><td>Jun 18, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>7834a6e</td><td>feat: add functional API uwu</td><td></td><td>Jun 18, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>44ef952</td><td>feat: add complete Payments BCs version</td><td></td><td>Jun 17, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>e67a84d</td><td>feat: add complete Payments BCs version</td><td></td><td>Jun 16, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1f8bd97</td><td>feat: add complete Payments BCs version</td><td></td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>896d95b</td><td>feat: add complete Bike And Rental BCs version</td><td></td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>f37fa3a</td><td>feat: add complete Lender Profile BC version</td><td></td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>caf2e78</td><td>feat: add complete Bike BC version</td><td></td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>9aad685</td><td>feat: add Bikes BC aggregates</td><td></td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1d6fc7e</td><td>feat: added Reviews AGGREGATE files</td><td></td><td>Jun 10, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1f81917</td><td>feat: added UsersController</td><td></td><td>Jun 6, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>2a8f5f2</td><td>feat: added unversioned files</td><td></td><td>Jun 6, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>51ed328</td><td>feat: added swagger and completed UserRoles endpoints</td><td></td><td>Jun 5, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>5adc99f</td><td>feat: add more aggregates</td><td></td><td>Jun 2, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>ae72ef4</td><td>feat: add User BC aggregates</td><td></td><td>Jun 1, 2025</td></tr>
+  </tbody>
 </table>
 
 <br>
