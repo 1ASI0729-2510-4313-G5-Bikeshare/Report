@@ -600,24 +600,24 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Diseño e implementación del modelo de renta en la base de datos</td>
       <td>Diseñar e implementar la entidad Rental en la base de datos y asegurarse de que se cumplen las reglas del dominio</td>
       <td>5 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>José Luis Martinez</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>T02</td>
       <td>Implementar Servicios y API REST para crear rentas</td>
       <td>Exponer endpoint POST /api/v1/rentals</td>
       <td>6 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>José Luis Martinez </td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>T03</td>
       <td>Formulario de reserva con selección de minutos</td>
       <td>Mejorar vista de reservas</td>
       <td>4 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Rodrigo Alaya </td>
+      <td>Done </td>
     </tr>
     <tr>
       <td rowspan="3">US12</td>
@@ -626,24 +626,24 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Modelar entidad Bike</td>
       <td>Crear Aggregate Bike y lógica para registro de bicicletas</td>
       <td>5 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Maria Fernanda Mostajo</td>
+      <td>Done </td>
     </tr>
     <tr>
       <td>T05</td>
       <td>Crear Bike API</td>
       <td>Implementar el caso de uso y endpoint POST /api/v1/bikes</td>
       <td>6 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Niurka Huarcaya  </td>
+      <td>Done </td>
     </tr>
     <tr>
       <td>T06</td>
       <td>Formulario de creación de bicleta</td>
       <td>Diseño del formulario, integración con backend</td>
       <td>4 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Rodrigo Alaya</td>
+      <td>Done </td>
     </tr>
     <tr>
       <td rowspan="1">US21</td>
@@ -652,8 +652,8 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Obtener detalles de bicicletas</td>
       <td>Implementar endpoint GET /api/v1/bikes/{id} para mostrar toda la información necesaria</td>
       <td>4 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Karen Ramos</td>
+      <td>Done </td>
     </tr>
      <tr>
       <td rowspan="2">US23</td>
@@ -662,15 +662,15 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Listar las rentas de arrendatario</td>
       <td>Implementar endpoint GET /api/v1/{userId}/rentals para mostrar todas las reservas del arrendatario</td>
       <td>4 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Jose Luis Martinez </td>
+      <td>Done </td>
     <tr>
       <td>T09</td>
       <td>Cancelación de reserva</td>
       <td>Implementar endpoint para cancelar una reserva del arrendatario</td>
       <td>4 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Rodrigo Alaya </td>
+      <td>Done </td>
     </tr>
     </tr>
     <tr>
@@ -680,15 +680,15 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Modelar entidad Review</td>
       <td>Crear Aggregate Review y lógica para registro de reseñas</td>
       <td>5 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Maria Fernanda Mostajo</td>
+      <td>Done </td>
     <tr>
       <td>T11</td>
       <td>Listar las reseñas</td>
       <td>Implementar endpoint para mostrar todas las reseñas del arrendatario</td>
       <td>4 hr</td>
-      <td> </td>
-      <td> </td>
+      <td>Niurka Huarcaya</td>
+      <td>Done </td>
     </tr>
   </tbody>
 </table>
@@ -719,22 +719,22 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
     </tr>
   </thead>
   <tbody>
-    <tr><td>Backend</td><td>master</td><td>1b049b9</td><td>feat: add auditable models</td><td></td><td>Jun 18, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>0e2c3c4</td><td>feat: add functional API uwu</td><td></td><td>Jun 18, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>7834a6e</td><td>feat: add functional API uwu</td><td></td><td>Jun 18, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>44ef952</td><td>feat: add complete Payments BCs version</td><td></td><td>Jun 17, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>e67a84d</td><td>feat: add complete Payments BCs version</td><td></td><td>Jun 16, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>1f8bd97</td><td>feat: add complete Payments BCs version</td><td></td><td>Jun 12, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>896d95b</td><td>feat: add complete Bike And Rental BCs version</td><td></td><td>Jun 12, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>f37fa3a</td><td>feat: add complete Lender Profile BC version</td><td></td><td>Jun 12, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>caf2e78</td><td>feat: add complete Bike BC version</td><td></td><td>Jun 12, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>9aad685</td><td>feat: add Bikes BC aggregates</td><td></td><td>Jun 12, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>1d6fc7e</td><td>feat: added Reviews AGGREGATE files</td><td></td><td>Jun 10, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>1f81917</td><td>feat: added UsersController</td><td></td><td>Jun 6, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>2a8f5f2</td><td>feat: added unversioned files</td><td></td><td>Jun 6, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>51ed328</td><td>feat: added swagger and completed UserRoles endpoints</td><td></td><td>Jun 5, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>5adc99f</td><td>feat: add more aggregates</td><td></td><td>Jun 2, 2025</td></tr>
-    <tr><td>Backend</td><td>master</td><td>ae72ef4</td><td>feat: add User BC aggregates</td><td></td><td>Jun 1, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1b049b9</td><td>feat: add auditable models</td><td>-</td><td>Jun 18, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>0e2c3c4</td><td>feat: add functional API uwu</td><td>-</td><td>Jun 18, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>7834a6e</td><td>feat: add functional API uwu</td><td>-</td><td>Jun 18, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>44ef952</td><td>feat: add complete Payments BCs version</td><td>-</td><td>Jun 17, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>e67a84d</td><td>feat: add complete Payments BCs version</td><td>-</td><td>Jun 16, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1f8bd97</td><td>feat: add complete Payments BCs version</td><td>-</td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>896d95b</td><td>feat: add complete Bike And Rental BCs version</td><td>-</td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>f37fa3a</td><td>feat: add complete Lender Profile BC version</td><td>-</td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>caf2e78</td><td>feat: add complete Bike BC version</td><td>-</td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>9aad685</td><td>feat: add Bikes BC aggregates</td><td>-</td><td>Jun 12, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1d6fc7e</td><td>feat: added Reviews AGGREGATE files</td><td>-</td><td>Jun 10, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>1f81917</td><td>feat: added UsersController</td><td>-</td><td>Jun 6, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>2a8f5f2</td><td>feat: added unversioned files</td><td>-</td><td>Jun 6, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>51ed328</td><td>feat: added swagger and completed UserRoles endpoints</td><td>-</td><td>Jun 5, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>5adc99f</td><td>feat: add more aggregates</td><td>-</td><td>Jun 2, 2025</td></tr>
+    <tr><td>Backend</td><td>master</td><td>ae72ef4</td><td>feat: add User BC aggregates</td><td>-</td><td>Jun 1, 2025</td></tr>
   </tbody>
 </table>
 
