@@ -762,87 +762,86 @@ Estas funcionalidades representan una parte crítica del backend, ya que permite
 
 A continuación, se muestran capturas que evidencian la ejecución de las interfaces REST correspondientes, utilizando herramientas de prueba como Postman:
 
----
 
-#### Rental Status
 
-<p align="center">
-  <img src="" alt="">
-</p>
-
----
-
-#### Notifications
+#### Rental Status:
 
 <p align="center">
-  <img src="" alt="">
-</p>
-
----
-
-#### User Roles
-
-<p align="center">
-  <img src="" alt="">
-</p>
-
----
-
-#### Lender Profiles
-
-<p align="center">
-  <img src="" alt="">
-</p>
-
----
-
-#### Bikes
-
-<p align="center">
-  <img src="" alt="">
-</p>
-
----
-
-#### Reviews
-
-<p align="center">
-  <img src="" alt="">
+  <img src="images/RentalStatus.png" alt="">
 </p>
 
 
 
----
-
-#### Bike Status 
+#### Notifications:
 
 <p align="center">
-  <img src="" alt="">
+  <img src="images/Notifications.png" alt="">
 </p>
 
-#### Bike Types
+
+
+#### User Roles:
 
 <p align="center">
-  <img src="" alt="">
+  <img src="images/UserRoles.png" alt="">
+</p>
+
+
+
+#### Lender Profiles:
+
+<p align="center">
+  <img src="images/LenderProfile.png" alt="">
+</p>
+
+
+
+#### Bikes:
+
+<p align="center">
+  <img src="images/Bikes.png" alt="">
+</p>
+
+
+
+#### Reviews:
+
+<p align="center">
+  <img src="images/Reviews.png" alt="">
+</p>
+
+
+
+
+#### Bike Status: 
+
+<p align="center">
+  <img src="images/BikeStatus.png" alt="">
+</p>
+
+#### Bike Types:
+
+<p align="center">
+  <img src="images/BikeTypes.png" alt="">
 </p>
 
 #### Users
 
 <p align="center">
-  <img src="" alt="">
+  <img src="images/Users.png" alt="">
 </p>
 
 
 #### Rentals 
 
 <p align="center">
-  <img src="" alt="">
+  <img src="images/Rentals.png" alt="">
 </p>
 
 #### Notification Types 
 
 <p align="center">
-  <img src="" alt="">
+  <img src="images/NotificationTypes.png" alt="">
 </p>
 
 
