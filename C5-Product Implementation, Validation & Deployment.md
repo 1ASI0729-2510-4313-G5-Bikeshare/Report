@@ -748,11 +748,37 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 </table>
 
 <br>
+<br>
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+A continuación, se muestran las capturas del despliegue de la API junto a las base de datos:
+
+- Aiven: <br> <br>
+
+![AIVEN]()
+
+<br>
+
+- Render:  <br>
+<br>
+
+![RENDER]()
+
+<br>
+
+
 #### 5.2.3.8.Team Collaboration Insights during Sprint
+Durante este sprint, la colaboración del equipo se mantuvo constante y bien organizada, facilitando el cumplimiento exitoso de los objetivos establecidos.En la reunión, se asignaron responsabilidades específicas a cada integrante, permitiendo una distribución eficiente del trabajo y un entendimiento claro de las tareas a ejecutar. A lo largo de este sprint se lograron avances significativos en el desarrollo del Front-End de BikeShare, empleando Angular CLI y SpringBoot. Se llevaron a cabo implementaciones clave, entre las que destacan la realizacion de los endpoints de las APIRest, la conexion con la base de datos y el frontend.
+
+<br>
+
+![Netlify](images/Insights2.png)
+
+<br>
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
