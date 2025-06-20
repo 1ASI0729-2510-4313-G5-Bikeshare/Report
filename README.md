@@ -188,6 +188,9 @@ Abril 2025
 # **Project Report Online**
 
 URL Project Report (Github): https://github.com/upc-pre-2025101asi0729-RepoRangers/Report
+URL Landing Page: https://1asi0729-2510-4313-g5-bikeshare.github.io/LandingPage/
+URL FrontEnd: https://lucky-treacle-8d6a1c.netlify.app/
+URL BackEnd:
 
 ### [Capítulo I: Introducción]()
 - [1.1. Startup Profile]()
