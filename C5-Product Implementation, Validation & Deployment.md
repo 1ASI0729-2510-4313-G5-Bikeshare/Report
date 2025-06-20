@@ -742,6 +742,110 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 <br>
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
+En el Sprint 3 se logró un progreso considerable en la aplicación de la lógica de negocio relacionada con diversas entidades del backend de la aplicación BikeShare. Se desarrollaron controladores, servicios y transformadores con el fin de gestionar operaciones CRUD vinculadas a los diferentes modelos fundamentales del sistema.
+
+Las entidades implementadas durante este sprint fueron:
+
+- Rental Status (`/api/v1/rental-status`)
+- Notifications (`/api/v1/notifications`)
+- User Roles (`/api/v1/user-roles`)
+- Lender Profiles (`/api/v1/lender-profile`)
+- Bikes (`/api/v1/bikes`)
+- Reviews (`/api/v1/reviews`)
+- Bike Status (`/api/v1/bike-status`)
+- Bike Types (`/api/v1/bike-types`)
+- Users (`/api/v1/users`)
+- Rentals (`/api/v1/rental`)
+- Notification Types (`/api/v1/notification-type`)
+
+Estas funcionalidades representan una parte crítica del backend, ya que permiten almacenar y gestionar la información básica que interconecta todos los módulos funcionales de BikeShare.
+
+A continuación, se muestran capturas que evidencian la ejecución de las interfaces REST correspondientes, utilizando herramientas de prueba como Postman:
+
+---
+
+#### Rental Status
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+---
+
+#### Notifications
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+---
+
+#### User Roles
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+---
+
+#### Lender Profiles
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+---
+
+#### Bikes
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+---
+
+#### Reviews
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+
+
+---
+
+#### Bike Status 
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+#### Bike Types
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+#### Users
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+
+#### Rentals 
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+#### Notification Types 
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación BikeShare, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD, y están documentados con Swagger/OpenAPI para su uso y prueba.
 <table border="1" class="dataframe">
