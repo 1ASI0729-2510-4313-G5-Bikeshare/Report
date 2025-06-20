@@ -744,327 +744,292 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de la aplicación BikeShare, siguiendo una arquitectura RESTful con Spring Boot. Todos los recursos cuentan con operaciones básicas de CRUD, y están documentados con Swagger/OpenAPI para su uso y prueba.
-<br>
-<table border="1" class="dataframe api-table">
+<table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
-      <th>Base Path</th>
-      <th>HTTP Method</th>
-      <th>Endpoint Path</th>
-      <th>Controller</th>
+    <tr style="text-align: center;">
+      <th>Grupo</th>
+      <th>Endpoint base</th>
+      <th>Acciones</th>
+      <th>Metodos HTTP</th>
+      <th>Descripción</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>/api/v1/bikes</td>
-      <td>REQUEST</td>
-      <td>/api/v1/bikes/api/v1/bikes</td>
-      <td>BikeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bikes</td>
-      <td>POST</td>
-      <td>/api/v1/bikes/</td>
-      <td>BikeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bikes</td>
-      <td>GET</td>
-      <td>/api/v1/bikes/{bikeId}</td>
-      <td>BikeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bikes</td>
-      <td>GET</td>
-      <td>/api/v1/bikes/{ownerId}</td>
-      <td>BikeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bikes</td>
-      <td>GET</td>
-      <td>/api/v1/bikes/</td>
-      <td>BikeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-status</td>
-      <td>REQUEST</td>
-      <td>/api/v1/bike-status/api/v1/bike-status</td>
-      <td>BikeStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-status</td>
-      <td>POST</td>
-      <td>/api/v1/bike-status/</td>
-      <td>BikeStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-status</td>
-      <td>GET</td>
-      <td>/api/v1/bike-status/{statusId}</td>
-      <td>BikeStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-status</td>
-      <td>GET</td>
-      <td>/api/v1/bike-status/</td>
-      <td>BikeStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-types</td>
-      <td>REQUEST</td>
-      <td>/api/v1/bike-types/api/v1/bike-types</td>
-      <td>BikeTypesController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-types</td>
-      <td>POST</td>
-      <td>/api/v1/bike-types/</td>
-      <td>BikeTypesController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-types</td>
-      <td>GET</td>
-      <td>/api/v1/bike-types/{statusId}</td>
-      <td>BikeTypesController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/bike-types</td>
-      <td>GET</td>
-      <td>/api/v1/bike-types/</td>
-      <td>BikeTypesController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/lender-profile</td>
-      <td>REQUEST</td>
-      <td>/api/v1/lender-profile/api/v1/lender-profile</td>
-      <td>LenderProfileController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/lender-profile</td>
-      <td>POST</td>
-      <td>/api/v1/lender-profile/</td>
-      <td>LenderProfileController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/lender-profile</td>
-      <td>GET</td>
-      <td>/api/v1/lender-profile/{lenderProfileId}</td>
-      <td>LenderProfileController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/lender-profile</td>
-      <td>GET</td>
-      <td>/api/v1/lender-profile/{totalEarnings}</td>
-      <td>LenderProfileController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/lender-profile</td>
-      <td>GET</td>
-      <td>/api/v1/lender-profile/</td>
-      <td>LenderProfileController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notifications</td>
-      <td>REQUEST</td>
-      <td>/api/v1/notifications/api/v1/notifications</td>
-      <td>NotificationController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notifications</td>
-      <td>POST</td>
-      <td>/api/v1/notifications/</td>
-      <td>NotificationController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notifications</td>
-      <td>GET</td>
-      <td>/api/v1/notifications/{notificationId}</td>
-      <td>NotificationController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notifications</td>
-      <td>GET</td>
-      <td>/api/v1/notifications/{userId}/{message}/{typeId}</td>
-      <td>NotificationController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notifications</td>
-      <td>GET</td>
-      <td>/api/v1/notifications/</td>
-      <td>NotificationController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notification-type</td>
-      <td>REQUEST</td>
-      <td>/api/v1/notification-type/api/v1/notification-type</td>
-      <td>NotificationTypeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notification-type</td>
-      <td>POST</td>
-      <td>/api/v1/notification-type/</td>
-      <td>NotificationTypeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notification-type</td>
-      <td>GET</td>
-      <td>/api/v1/notification-type/{typeId}</td>
-      <td>NotificationTypeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/notification-type</td>
-      <td>GET</td>
-      <td>/api/v1/notification-type/</td>
-      <td>NotificationTypeController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental</td>
-      <td>REQUEST</td>
-      <td>/api/v1/rental/api/v1/rental</td>
-      <td>RentalController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental</td>
-      <td>POST</td>
-      <td>/api/v1/rental/</td>
-      <td>RentalController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental</td>
-      <td>GET</td>
-      <td>/api/v1/rental/{rentalId}</td>
-      <td>RentalController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental</td>
-      <td>GET</td>
-      <td>/api/v1/rental/{clientEmail}</td>
-      <td>RentalController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental</td>
-      <td>GET</td>
-      <td>/api/v1/rental/</td>
-      <td>RentalController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental</td>
-      <td>DELETE</td>
-      <td>/api/v1/rental/{rentalId}</td>
-      <td>RentalController</td>
-    </tr>
-    <tr>
+      <td>Rental Status</td>
       <td>/api/v1/rental-status</td>
-      <td>REQUEST</td>
-      <td>/api/v1/rental-status/api/v1/rental-status</td>
-      <td>RentalStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental-status</td>
-      <td>POST</td>
-      <td>/api/v1/rental-status/</td>
-      <td>RentalStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental-status</td>
+      <td>Get all rental status</td>
       <td>GET</td>
+      <td>Obtiene todos los estados de alquiler</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/rental-status</td>
+      <td>Create a rental status</td>
+      <td>POST</td>
+      <td>Crea un nuevo estado de alquiler</td>
+    </tr>
+    <tr>
+      <td></td>
       <td>/api/v1/rental-status/{statusId}</td>
-      <td>RentalStatusController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/rental-status</td>
+      <td>Get rental status by ID</td>
       <td>GET</td>
-      <td>/api/v1/rental-status/</td>
-      <td>RentalStatusController</td>
+      <td>Obtiene un estado de alquiler por su ID</td>
     </tr>
     <tr>
-      <td>api/v1/reviews/</td>
-      <td>REQUEST</td>
-      <td>api/v1/reviews/api/v1/reviews/</td>
-      <td>ReviewsController</td>
+      <td>Notifications</td>
+      <td>/api/v1/notifications</td>
+      <td>Get all notifications</td>
+      <td>GET</td>
+      <td>Obtiene todas las notificaciones</td>
     </tr>
     <tr>
-      <td>api/v1/reviews/</td>
+      <td></td>
+      <td>/api/v1/notifications</td>
+      <td>Create a notification</td>
       <td>POST</td>
-      <td>api/v1/reviews/</td>
-      <td>ReviewsController</td>
+      <td>Crea una nueva notificación</td>
     </tr>
     <tr>
-      <td>api/v1/reviews/</td>
+      <td></td>
+      <td>/api/v1/notifications/{notificationId}</td>
+      <td>Get user data by notification ID</td>
       <td>GET</td>
-      <td>api/v1/reviews/id/{reviewId}</td>
-      <td>ReviewsController</td>
+      <td>Obtiene los datos del usuario según la notificación</td>
     </tr>
     <tr>
-      <td>api/v1/reviews/</td>
-      <td>GET</td>
-      <td>api/v1/reviews/target/{targetUserEmail}</td>
-      <td>ReviewsController</td>
-    </tr>
-    <tr>
-      <td>api/v1/reviews/</td>
-      <td>GET</td>
-      <td>api/v1/reviews/</td>
-      <td>ReviewsController</td>
-    </tr>
-    <tr>
+      <td>User Roles</td>
       <td>/api/v1/user-roles</td>
-      <td>REQUEST</td>
-      <td>/api/v1/user-roles/api/v1/user-roles</td>
-      <td>UserRolesController</td>
+      <td>Get all user roles</td>
+      <td>GET</td>
+      <td>Obtiene todos los roles de usuario</td>
     </tr>
     <tr>
+      <td></td>
       <td>/api/v1/user-roles</td>
+      <td>Create a user role</td>
       <td>POST</td>
-      <td>/api/v1/user-roles/</td>
-      <td>UserRolesController</td>
+      <td>Crea un nuevo rol de usuario</td>
     </tr>
     <tr>
-      <td>/api/v1/user-roles</td>
-      <td>GET</td>
+      <td></td>
       <td>/api/v1/user-roles/{role_id}</td>
-      <td>UserRolesController</td>
-    </tr>
-    <tr>
-      <td>/api/v1/user-roles</td>
+      <td>Get a role name by ID</td>
       <td>GET</td>
-      <td>/api/v1/user-roles/</td>
-      <td>UserRolesController</td>
+      <td>Obtiene un nombre de rol por ID</td>
     </tr>
     <tr>
-      <td>/api/v1/users</td>
-      <td>REQUEST</td>
-      <td>/api/v1/users/api/v1/users</td>
-      <td>UsersController</td>
+      <td>Lender Profiles</td>
+      <td>/api/v1/lender-profile</td>
+      <td>Get all lender profiles</td>
+      <td>GET</td>
+      <td>Obtiene todos los perfiles de prestadores</td>
     </tr>
     <tr>
-      <td>/api/v1/users</td>
+      <td></td>
+      <td>/api/v1/lender-profile</td>
+      <td>Create a lender profile</td>
       <td>POST</td>
-      <td>/api/v1/users/</td>
-      <td>UsersController</td>
+      <td>Crea un perfil de prestador</td>
     </tr>
     <tr>
-      <td>/api/v1/users</td>
+      <td></td>
+      <td>/api/v1/lender-profile/{totalEarnings}</td>
+      <td>Get profiles by total earnings</td>
       <td>GET</td>
+      <td>Obtiene perfiles según ganancias totales</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/lender-profile/{lenderProfileId}</td>
+      <td>Get lender profile by ID</td>
+      <td>GET</td>
+      <td>Obtiene un perfil de prestador por ID</td>
+    </tr>
+    <tr>
+      <td>Bikes</td>
+      <td>/api/v1/bikes</td>
+      <td>Get all bikes</td>
+      <td>GET</td>
+      <td>Obtiene todas las bicicletas</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bikes</td>
+      <td>Create a bike</td>
+      <td>POST</td>
+      <td>Crea una nueva bicicleta</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bikes/{ownerId}</td>
+      <td>Get bikes by owner ID</td>
+      <td>GET</td>
+      <td>Obtiene bicicletas por ID de propietario</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bikes/{bikeId}</td>
+      <td>Get bike by ID</td>
+      <td>GET</td>
+      <td>Obtiene una bicicleta por su ID</td>
+    </tr>
+    <tr>
+      <td>Reviews</td>
+      <td>/api/v1/reviews</td>
+      <td>Get all reviews</td>
+      <td>GET</td>
+      <td>Obtiene todas las reseñas</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/reviews</td>
+      <td>Create a review</td>
+      <td>POST</td>
+      <td>Crea una reseña</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/reviews/target/{targetUserEmail}</td>
+      <td>Get reviews by target email</td>
+      <td>GET</td>
+      <td>Obtiene reseñas por email de usuario</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/reviews/id/{reviewId}</td>
+      <td>Get review by ID</td>
+      <td>GET</td>
+      <td>Obtiene una reseña por su ID</td>
+    </tr>
+    <tr>
+      <td>Bike Status</td>
+      <td>/api/v1/bike-status</td>
+      <td>Get all bike statuses</td>
+      <td>GET</td>
+      <td>Obtiene todos los estados de bicicletas</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bike-status</td>
+      <td>Create a bike status</td>
+      <td>POST</td>
+      <td>Crea un estado de bicicleta</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bike-status/{statusId}</td>
+      <td>Get bike status by ID</td>
+      <td>GET</td>
+      <td>Obtiene estado de bicicleta por ID</td>
+    </tr>
+    <tr>
+      <td>Bike Types</td>
+      <td>/api/v1/bike-types</td>
+      <td>Get all bike types</td>
+      <td>GET</td>
+      <td>Obtiene todos los tipos de bicicleta</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bike-types</td>
+      <td>Create a bike type</td>
+      <td>POST</td>
+      <td>Crea un tipo de bicicleta</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/bike-types/{statusId}</td>
+      <td>Get a bike type by ID</td>
+      <td>GET</td>
+      <td>Obtiene un tipo de bicicleta por ID</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>/api/v1/users</td>
+      <td>Get all users</td>
+      <td>GET</td>
+      <td>Obtiene todos los usuarios</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/users</td>
+      <td>Create a user</td>
+      <td>POST</td>
+      <td>Crea un nuevo usuario</td>
+    </tr>
+    <tr>
+      <td></td>
       <td>/api/v1/users/{userId}</td>
-      <td>UsersController</td>
+      <td>Get a user by ID</td>
+      <td>GET</td>
+      <td>Obtiene un usuario por ID</td>
     </tr>
     <tr>
-      <td>/api/v1/users</td>
-      <td>GET</td>
+      <td></td>
       <td>/api/v1/users/{email}</td>
-      <td>UsersController</td>
+      <td>Get user by email</td>
+      <td>GET</td>
+      <td>Obtiene un usuario por email</td>
     </tr>
     <tr>
-      <td>/api/v1/users</td>
+      <td>Rentals</td>
+      <td>/api/v1/rental</td>
+      <td>Get all rentals</td>
       <td>GET</td>
-      <td>/api/v1/users/</td>
-      <td>UsersController</td>
+      <td>Obtiene todos los alquileres</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/rental</td>
+      <td>Create a rental</td>
+      <td>POST</td>
+      <td>Crea un nuevo alquiler</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/rental/{rentalId}</td>
+      <td>Get rental by ID</td>
+      <td>GET</td>
+      <td>Obtiene un alquiler por ID</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/rental/{rentalId}</td>
+      <td>Delete a rental</td>
+      <td>DELETE</td>
+      <td>Elimina un alquiler</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/rental/{clientEmail}</td>
+      <td>Get rental by client email</td>
+      <td>GET</td>
+      <td>Obtiene un alquiler por email del cliente</td>
+    </tr>
+    <tr>
+      <td>Notification Types</td>
+      <td>/api/v1/notification-type</td>
+      <td>Get all notification types</td>
+      <td>GET</td>
+      <td>Obtiene todos los tipos de notificación</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/notification-type</td>
+      <td>Create a notification type</td>
+      <td>POST</td>
+      <td>Crea un tipo de notificación</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>/api/v1/notification-type/{typeId}</td>
+      <td>Get a notification type by ID</td>
+      <td>GET</td>
+      <td>Obtiene un tipo de notificación por ID</td>
     </tr>
   </tbody>
 </table>
-
-<br>
 
 A continuación se presenta un resumen de los endpoints disponibles y sus principales operaciones:
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
