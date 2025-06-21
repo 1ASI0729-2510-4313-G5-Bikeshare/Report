@@ -1163,6 +1163,47 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
+
+Para cada uno de los segmentos identificados, se han formulado las siguientes preguntas:
+
+    #### Segmento #1: Personas interesadas en alquilar bicicletas (Arrendatarios)
+
+     - ¿Cuál es su nombre, edad y en qué distrito vive?
+     - ¿Cuándo fue la última vez que tuvo dificultades para movilizarse en la ciudad?
+     - ¿Qué hizo en ese momento? ¿Cómo se sintió?
+     - ¿Alguna vez pensó: “Si tuviera una bicicleta en este momento, sería más fácil”?
+     - ¿Qué opinas de una app donde puedas alquilar bicicletas de personas que las comparten cerca de ti?
+     - Si esta app existiera mañana, ¿la descargarías y la usarías? ¿Por qué sí o por qué no?
+     - ¿Qué te haría sentir confianza para alquilar la bici de alguien que no conoces?
+     - ¿Qué debería tener una app así para que digas: “vale la pena usarla”?
+     - ¿Preferirías alquilar bicicletas por minutos, por horas o por recorrido?
+     - ¿Cuánto estarías dispuesto a pagar por un alquiler promedio (ej. 30 minutos)?
+     - ¿Has usado alguna vez un scooter o bici compartida como CityBike, Lime o similar?
+     - ¿Qué fue lo mejor y lo peor de esa experiencia?
+     - Si te invitáramos a probar una versión inicial de la app, ¿estarías dispuesto/a a usarla durante una semana?
+     - ¿Nos darías feedback después de probarla?
+   
+
+    #### Segmento #2: Personas dispuestas a rentar sus bicicletas (Arrendadores)
+
+     - ¿Tienes una bicicleta que no usas frecuentemente? ¿Con qué frecuencia la usas realmente?
+     - ¿Te gustaría generar ingresos extra con ella?
+     - ¿Qué te parece la idea de compartir tu bici con otros mediante una app, a cambio de un pago?
+     - ¿Qué cosas te generarían más dudas o temores sobre hacerlo?
+     - ¿Qué tendría que ofrecerte una app para que te animes a poner tu bici en alquiler?
+     - ¿Te interesaría poder decidir a quién se la alquilas? ¿Por cuánto tiempo?
+     - ¿Qué nivel de ingreso mensual te parecería interesante para participar?
+     - ¿Qué herramientas necesitas para sentir que tienes control sobre el uso de tu bicicleta?
+     - ¿Qué medidas de seguridad o garantías debería darte la app?
+     - ¿Te gustaría tener alertas, geolocalización, seguro, o soporte técnico?
+     - Si te diéramos acceso a una versión beta para que publiques tu bici por una semana, ¿te animarías a probarla?
+     - ¿Qué necesitarías para recomendar esta app a tus amigos ciclistas?
+     
+  - [2.2.2. Registro de entrevistas]()
+
+    Para cada segmento se registraron 3 entrevistas. A continuación se muestra la recolección de datos que conseguimos tras realizar cada entrevista.  
+Se puede ver el video consolidado con todas las entrevistas realizadas en el siguiente enlace: [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/EXe7VEo3qRNLga7Dad4XsmEBq7EjGcMkY2Qbf_AZrcvSHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=K2EsaK).
+
 ### 5.3.2. Registro de Entrevistas.
 ### 5.3.3. Evaluaciones según heurísticas.
 ## 5.4. Video About-the-Product
