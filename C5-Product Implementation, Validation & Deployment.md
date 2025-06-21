@@ -1167,3 +1167,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
 ### 5.3.3. Evaluaciones según heurísticas.
 ## 5.4. Video About-the-Product
 
+Para la presentación de las características que hacen destacar a nuestro producto, hemos realizado un video en el que se presenta la aplicación y sus funciones principales. Es una explicación amigable y sutil ya que buscamos generar confianza con el usuario desde un principio.
+
+Link del video: https://youtu.be/AbJAPa_9phU
+
