@@ -1234,6 +1234,79 @@ Los usuarios interesados en alquilar bicicletas manifestaron un fuerte interés 
 Los potenciales arrendadores reconocen que tienen bicicletas poco utilizadas y ven con buenos ojos la posibilidad de generar ingresos extra a través de una app colaborativa. Sin embargo, su participación está condicionada a tener control total sobre el alquiler (precio, tiempo, disponibilidad), así como a contar con medidas de seguridad claras, como geolocalización, sistema de reputación y soporte en caso de incidentes. La mayoría mencionó que solo participarían si la plataforma garantiza respaldo ante daños o mal uso de sus bicicletas, y están abiertos a probar el servicio si se sienten protegidos y escuchados.
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+### SITE o APP A EVALUAR:
+ BikeShare
+ Meta: El propósito general de la evaluación es encontrar problemas existentes en la aplicación web BikeShare.
+ Cómo: Los hallazgos del sitio web se llevarán a cabo utilizando la Lista Heurística de Nielsen, inicialmente investigada y creada
+ por Jakob Nielsen.
+
+### TAREAS A EVALUAR:
+ 1. Desktop landing page
+ 1. Información y descripción de la aplicación y sus funcionalidades
+ 2. Visualización de planes de pago y precio de la aplicación
+ 3. Header y footer apropiado para la landing page
+ 4. Interacción del landing page con la aplicación
+ 2. Web Application
+ 1. Inicio de sesión con usuario existente
+ 2. Indicadores claros de progreso o estado del proceso
+ 3. Iconografía comprensible y consistente con el mundo real
+ 4. Mensajes de error que reflejen el registro de datos incorrectos
+ 5. Acciones de retroceso dentro de la aplicación
+ 6. Opciones de cancelar o salir del registro de procesos para redireccionarse al dashboard
+ 7. Evaluar existencia de patrones de diseño o navegación
+ 8. Elementos de la interfaz de usuario consistentes
+ 9. Pestañas de navegación dentro de la aplicación
+ 10. Botones interactivos y de uso intuitivo
+ 11. Búsqueda de procesos y cultivos con registro previo
+ 12. Navegación y orientación dentro de la aplicación
+ 13. Apertura y visualización de cultivos registrados
+ 14. Visualización de perfil de usuario
+ 15. Visualización del perfil de la empresa
+ 16. Mensajes que orienten al usuario sobre el estado del sistema
+ 17. Cambio de idioma de la aplicación
+ 18. Estética general de la interfaz atractiva y agradable visualmente.
+     
+ No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 1. Desktop landing page
+ 1. Redes sociales asociadas al startup
+ 2. Política de privacidad y condiciones de uso
+ 2. Web Application
+ 1. Registro de nuevo usuario
+ 2. Modificación y eliminación de procesos o cultivos registrados
+ 3. Notificaciones de la aplicación respecto a los cambios efectuados por cualquier empleado de la empresa
+ 4. Documentación y exportación de registros
+ 5. Flexibilidad de uso a través de atajos por teclado
+ 6. Acceso a recursos de ayuda dentro de la aplicación
+ 7. Política de privacidad y condiciones de uso
+    
+ ### ESCALA DE SEVERIDAD:
+ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel        | Descripción
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1            |Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2            | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3            | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.  |
+| 4            | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+### TABLA RESUMEN:
+
+| #     | Problema                                                                         | Escala de severidad    |  Heurística/Principio violada(o)                                                       |
+|-------|----------------------------------------------------------------------------------|------------------------|----------------------------------------------------------------------------------------|
+| 1     | No hay botón para regresar al home desde la vista de reservas | 2 | Usabilidad – Libertad y control del usuario |
+| 2     | Falta consistencia en íconos entre vistas de renter y owner |  2  | Usabilidad – Consistencia y estándares |
+| 3     | No se valida el formato del correo en registro |  3  |Usabilidad – Prevención de errores  |
+| 4     | En soporte no hay feedback claro luego de enviar mensaje |  3| Inclusive Design – Feedback perceptible |
+| 5     | El mapa no tiene leyenda ni explicación contextual |   2 | Information Architecture – ¿Es entendible? |
+| 6     | En el perfil, los campos no editables parecen editables |    2  |  Usabilidad – Visibilidad del estado del sistema  |
+| 7     | El botón de reservar no solicita confirmación  |   3 | Usabilidad – Prevención de errores |
+| 8     | El campo de mensaje en soporte no tiene texto guía |   2  |  Inclusive Design – Comprensión clara  |
+| 9     | No hay indicador de carga al hacer login o registro |   2  |  Usabilidad – Visibilidad del estado del sistema  |
+| 10    | Exceso de espacio en blanco en la vista de perfil |   1 |  Usabilidad – Estética y diseño minimalista |
+| 11    | No se puede cancelar una reserva como owner  |    3  | Usabilidad – Control y libertad del usuario |
+| 12    | Menú lateral no muestra resaltado del módulo activo |   2  | Information Architecture – ¿Es encontrable? |
+ 
 ## 5.4. Video About-the-Product
 
 Para la presentación de las características que hacen destacar a nuestro producto, hemos realizado un video en el que se presenta la aplicación y sus funciones principales. Es una explicación amigable y sutil ya que buscamos generar confianza con el usuario desde un principio.
