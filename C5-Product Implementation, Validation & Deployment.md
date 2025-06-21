@@ -1242,44 +1242,24 @@ Los potenciales arrendadores reconocen que tienen bicicletas poco utilizadas y v
  por Jakob Nielsen.
 
 ### TAREAS A EVALUAR:
- 1. Desktop landing page
- 1. Información y descripción de la aplicación y sus funcionalidades
- 2. Visualización de planes de pago y precio de la aplicación
- 3. Header y footer apropiado para la landing page
- 4. Interacción del landing page con la aplicación
- 2. Web Application
- 1. Inicio de sesión con usuario existente
- 2. Indicadores claros de progreso o estado del proceso
- 3. Iconografía comprensible y consistente con el mundo real
- 4. Mensajes de error que reflejen el registro de datos incorrectos
- 5. Acciones de retroceso dentro de la aplicación
- 6. Opciones de cancelar o salir del registro de procesos para redireccionarse al dashboard
- 7. Evaluar existencia de patrones de diseño o navegación
- 8. Elementos de la interfaz de usuario consistentes
- 9. Pestañas de navegación dentro de la aplicación
- 10. Botones interactivos y de uso intuitivo
- 11. Búsqueda de procesos y cultivos con registro previo
- 12. Navegación y orientación dentro de la aplicación
- 13. Apertura y visualización de cultivos registrados
- 14. Visualización de perfil de usuario
- 15. Visualización del perfil de la empresa
- 16. Mensajes que orienten al usuario sobre el estado del sistema
- 17. Cambio de idioma de la aplicación
- 18. Estética general de la interfaz atractiva y agradable visualmente.
-     
- No están incluidas en esta versión de la evaluación las siguientes tareas:
- 1. Desktop landing page
- 1. Redes sociales asociadas al startup
- 2. Política de privacidad y condiciones de uso
- 2. Web Application
- 1. Registro de nuevo usuario
- 2. Modificación y eliminación de procesos o cultivos registrados
- 3. Notificaciones de la aplicación respecto a los cambios efectuados por cualquier empleado de la empresa
- 4. Documentación y exportación de registros
- 5. Flexibilidad de uso a través de atajos por teclado
- 6. Acceso a recursos de ayuda dentro de la aplicación
- 7. Política de privacidad y condiciones de uso
+Incluidas en esta versión:
+1. Registro de un nuevo usuario
+2. Inicio de sesión
+3. Recuperación de contraseña
+4. Visualización de bicicletas disponibles (renter)
+5. Mapa con bicicletas cercanas (renter)
+6. Reservar bicicleta (renter)
+7. Ver perfil y soporte (ambos roles)
+8. Ver lista de bicicletas propias (owner)
+9. Ver reservas recibidas (owner)
     
+No incluidas en esta versión:
+
+1. Reportes de fallas de bicicletas
+2. Integración con sistemas de pago reales
+3. Funcionalidad de calificaciones o reseñas
+4. Interacción por chat entre renter y owner
+
  ### ESCALA DE SEVERIDAD:
  Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
@@ -1306,7 +1286,115 @@ Los potenciales arrendadores reconocen que tienen bicicletas poco utilizadas y v
 | 10    | Exceso de espacio en blanco en la vista de perfil |   1 |  Usabilidad – Estética y diseño minimalista |
 | 11    | No se puede cancelar una reserva como owner  |    3  | Usabilidad – Control y libertad del usuario |
 | 12    | Menú lateral no muestra resaltado del módulo activo |   2  | Information Architecture – ¿Es encontrable? |
- 
+
+### PROBLEMA #1
+Severidad: 2
+
+Heurística violada: Usabilidad – Libertad y control del usuario
+
+Descripción: En la vista de reservas (Reservations-owner), no existe un botón visible para regresar al home o panel principal del propietario.
+
+Recomendación: Incluir un botón “Volver al inicio” visible en el menú o en la parte superior de la interfaz. 
+
+### PROBLEMA #2
+Severidad: 2
+
+Heurística violada: Usabilidad – Consistencia y estándares
+
+Descripción: El estilo de íconos y botones varía entre renter y owner, afectando la predictibilidad de la navegación.
+
+Recomendación: Unificar diseño visual y estructura de navegación en ambos roles.
+
+### PROBLEMA #3
+Severidad: 3
+
+Heurística violada: Usabilidad – Prevención de errores
+
+Descripción: En el formulario de registro no se valida adecuadamente el campo email, permitiendo textos no válidos.
+
+Recomendación: Agregar validación HTML y mensajes de error amigables para campos clave.
+
+### PROBLEMA #4
+Severidad: 3
+
+Heurística violada: Inclusive Design – Feedback perceptible
+
+Descripción: El usuario no recibe retroalimentación visual después de enviar una consulta desde la sección de soporte.
+
+Recomendación: Mostrar un mensaje de confirmación, animación o alerta para asegurar al usuario que su solicitud fue procesada.
+
+### PROBLEMA #5
+Severidad: 2
+
+Heurística violada: Information Architecture – ¿Es entendible?
+
+Descripción: El mapa de bicicletas cercanas no incluye una leyenda que explique los pines o colores.
+
+Recomendación: Añadir leyenda o íconos explicativos que brinden contexto inmediato.
+
+### PROBLEMA #6
+Severidad: 2
+
+Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Descripción: Los campos no editables en la vista de perfil parecen campos interactivos, lo que genera confusión.
+
+Recomendación: Utilizar colores más neutros o estados deshabilitados claros para distinguirlos visualmente.
+
+### PROBLEMA #7
+Severidad: 3
+
+Heurística violada: Usabilidad – Prevención de errores
+
+Descripción: En la vista de reserva (Home-renter), el botón de “Reservar” no solicita confirmación antes de ejecutar la acción, lo que puede llevar a clics accidentales.
+
+Recomendación: Agregar un diálogo de confirmación (“¿Estás seguro de que deseas reservar esta bicicleta?”).
+
+### PROBLEMA #8
+Severidad: 2
+
+Heurística violada: Inclusive Design – Comprensión clara
+
+Descripción: En la vista de soporte (Support-renter), el campo de mensaje no tiene un texto guía o placeholder, lo que puede confundir sobre qué escribir.
+
+Recomendación: Incluir un texto guía como “Escribe aquí tu duda o comentario”.
+
+### PROBLEMA #9
+Severidad: 2
+
+Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Descripción: Al hacer login o registrarse, no se muestra un indicador de carga. El usuario no sabe si la app está procesando la solicitud.
+
+Recomendación: Incluir un spinner o mensaje tipo “Iniciando sesión…” mientras se espera respuesta del servidor.
+
+### PROBLEMA #10
+Severidad: 1
+
+Heurística violada: Usabilidad – Estética y diseño minimalista
+
+Descripción: En la vista del perfil (Profile-owner), hay mucho espacio en blanco sin propósito, lo que puede generar una percepción de diseño incompleto.
+
+Recomendación: Reorganizar elementos para usar mejor el espacio o incluir sección de “Datos adicionales”.
+
+### PROBLEMA #11
+Severidad: 3
+
+Heurística violada: Usabilidad – Control y libertad del usuario
+
+Descripción: El usuario no puede cancelar una reserva desde la vista Reservations-owner. Esta limitación obliga a depender del administrador.
+
+Recomendación: Añadir botón de “Cancelar reserva” con opción de justificación.
+
+### PROBLEMA #12
+Severidad: 2
+
+Heurística violada: Information Architecture – ¿Es encontrable?
+
+Descripción: La navegación lateral no tiene resaltado activo del módulo en el que se encuentra el usuario.
+
+Recomendación: Añadir estilos o resaltado (como subrayado o color) al ítem del menú activo.
+
 ## 5.4. Video About-the-Product
 
 Para la presentación de las características que hacen destacar a nuestro producto, hemos realizado un video en el que se presenta la aplicación y sus funciones principales. Es una explicación amigable y sutil ya que buscamos generar confianza con el usuario desde un principio.
