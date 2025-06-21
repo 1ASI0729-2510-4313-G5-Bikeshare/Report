@@ -1166,7 +1166,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
 
 Para cada uno de los segmentos identificados, se han formulado las siguientes preguntas:
 
-    #### Segmento #1: Personas interesadas en alquilar bicicletas (Arrendatarios)
+    ### Segmento #1: Personas interesadas en alquilar bicicletas (Arrendatarios)
 
      - ¿Cuál es su nombre, edad y en qué distrito vive?
      - ¿Cuándo fue la última vez que tuvo dificultades para movilizarse en la ciudad?
@@ -1184,7 +1184,7 @@ Para cada uno de los segmentos identificados, se han formulado las siguientes pr
      - ¿Nos darías feedback después de probarla?
    
 
-    #### Segmento #2: Personas dispuestas a rentar sus bicicletas (Arrendadores)
+    ### Segmento #2: Personas dispuestas a rentar sus bicicletas (Arrendadores)
 
      - ¿Tienes una bicicleta que no usas frecuentemente? ¿Con qué frecuencia la usas realmente?
      - ¿Te gustaría generar ingresos extra con ella?
@@ -1210,9 +1210,9 @@ Se puede ver el video consolidado con todas las entrevistas realizadas en el sig
 
 | Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| 1             | - **Nombre:** Camila Ruiz <br> - **Edad:** 224 años  <br> - **Distrito:** San Borja <br> - **Momento que inicia:** 00:16  <br> - **Momento que termina:** 05:50  <br> - **Duración:** 5 min 34 seg | Camila se moviliza por Lima con frecuencia y sufre los efectos del tráfico. Le atrae la idea de alquilar bicis cercanas mediante app, pero su confianza depende de ver calificaciones, fotos y tener garantías de seguridad. Está dispuesta a pagar hasta S/3 por 30 min y probaría encantada una versión beta. | ![captura](images/entrevista1.png)              |
-| 2             | - **Nombre:** Luis Delgado  <br> - **Edad:** 31 años  <br> - **Distrito:** Magdalena <br> - **Momento que inicia:** 05:53  <br> - **Momento que termina:** 11:14  <br> - **Duración:** 5 min 61 seg | Luis ha probado bicicletas públicas, pero tuvo malas experiencias. Está abierto al alquiler P2P si la bici está cerca y es confiable. Valora claridad en precios y control por tiempo. Su mayor frustración es el tráfico intenso. Probaría la app si resuelve estas molestias. | ![captura](images/entrevista2.png)              |
-| 3             | - **Nombre:** Elena Vega <br> - **Edad:** 28 años  <br> - **Distrito:** Pueblo libre <br> - **Momento que inicia:** 13:20  <br> - **Momento que termina:** 18:25  <br> - **Duración:** 5 min 5 seg | Juan Elena se siente cómoda usando apps desde el celular y valora rapidez y claridad. Le gusta la idea de alquilar bicis entre personas, pero exige soporte y confianza en la calidad del servicio. Está interesada en la app si incluye funciones como seguros o asistencia ante problemas.| ![captura](images/entrevista3.png)              |
+| 1             | - **Nombre:** Camila Ruiz <br> - **Edad:** 224 años  <br> - **Distrito:** San Borja <br> - **Momento que inicia:** 00:16  <br> - **Momento que termina:** 05:50  <br> - **Duración:** 5 min 34 seg | Camila se moviliza por Lima con frecuencia y sufre los efectos del tráfico. Le atrae la idea de alquilar bicis cercanas mediante app, pero su confianza depende de ver calificaciones, fotos y tener garantías de seguridad. Está dispuesta a pagar hasta S/3 por 30 min y probaría encantada una versión beta. | ![captura](images/camila.png)              |
+| 2             | - **Nombre:** Luis Delgado  <br> - **Edad:** 31 años  <br> - **Distrito:** Magdalena <br> - **Momento que inicia:** 05:53  <br> - **Momento que termina:** 11:14  <br> - **Duración:** 5 min 61 seg | Luis ha probado bicicletas públicas, pero tuvo malas experiencias. Está abierto al alquiler P2P si la bici está cerca y es confiable. Valora claridad en precios y control por tiempo. Su mayor frustración es el tráfico intenso. Probaría la app si resuelve estas molestias. | ![captura](images/luis.png)              |
+| 3             | - **Nombre:** Elena Vega <br> - **Edad:** 28 años  <br> - **Distrito:** Pueblo libre <br> - **Momento que inicia:** 13:20  <br> - **Momento que termina:** 18:25  <br> - **Duración:** 5 min 5 seg | Juan Elena se siente cómoda usando apps desde el celular y valora rapidez y claridad. Le gusta la idea de alquilar bicis entre personas, pero exige soporte y confianza en la calidad del servicio. Está interesada en la app si incluye funciones como seguros o asistencia ante problemas.| ![captura](images/elena.png)              |
 
 </div>
    #### Resumen de entrevistas  segmento #1
@@ -1224,9 +1224,9 @@ Los usuarios interesados en alquilar bicicletas manifestaron un fuerte interés 
 
 | Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| 1             | - **Nombre:** Diego Salinas <br> - **Edad:** 35 años <br> - **Distrito:** Pueblo Libre <br> - **Momento que inicia:** 18:30 <br> - **Momento que termina:** 24:42 <br> - **Duración:** 6 min 12 seg | Diego usa poco su bici entre semana y estaría dispuesto a alquilarla si tiene control sobre el proceso. Necesita garantías, horarios definidos y alertas constantes. Ve con buenos ojos la oportunidad de ingresos pasivos y conoce a otros posibles usuarios interesados.| ![captura](images/entrevista4.png)              |
-| 2             | - **Nombre:** Patricia Córdova <br> - **Edad:** 36 años <br> - **Distrito:** Miraflores <br> - **Momento que inicia:** 24:47 <br> - **Momento que termina:** 30:08 <br> - **Duración:** 5 min 61 seg | Patricia confía en plataformas colaborativas, pero es muy cuidadosa con su bicicleta. Requiere reputación del arrendatario, opciones de pago seguras y soporte en caso de daño. Valora ayudar a la comunidad y obtener ingresos extra. Estaría dispuesta a testear la app. | ![captura](images/entrevista5.png)              |
-| 3             | - **Nombre:** Javier Mendoza <br> - **Edad:** 27 años <br> - **Distrito:** San Juan de Lurigancho <br> - **Momento que inicia:** 30:25 <br> - **Momento que termina:** 34:11 <br> - **Duración:** 3 min 86 seg | Javier no había considerado alquilar su bici, pero lo encuentra atractivo ahora. Quiere control sobre precios, necesita garantías de seguridad (GPS, seguro) y soporte. Considera que recomendaría la app solo si funciona sin generar estrés ni riesgos. | ![captura](images/entrevista6.PNG)              |
+| 1             | - **Nombre:** Diego Salinas <br> - **Edad:** 35 años <br> - **Distrito:** Pueblo Libre <br> - **Momento que inicia:** 18:30 <br> - **Momento que termina:** 24:42 <br> - **Duración:** 6 min 12 seg | Diego usa poco su bici entre semana y estaría dispuesto a alquilarla si tiene control sobre el proceso. Necesita garantías, horarios definidos y alertas constantes. Ve con buenos ojos la oportunidad de ingresos pasivos y conoce a otros posibles usuarios interesados.| ![captura](images/diego.png)              |
+| 2             | - **Nombre:** Patricia Córdova <br> - **Edad:** 36 años <br> - **Distrito:** Miraflores <br> - **Momento que inicia:** 24:47 <br> - **Momento que termina:** 30:08 <br> - **Duración:** 5 min 61 seg | Patricia confía en plataformas colaborativas, pero es muy cuidadosa con su bicicleta. Requiere reputación del arrendatario, opciones de pago seguras y soporte en caso de daño. Valora ayudar a la comunidad y obtener ingresos extra. Estaría dispuesta a testear la app. | ![captura](images/patricia.PNG)              |
+| 3             | - **Nombre:** Javier Mendoza <br> - **Edad:** 27 años <br> - **Distrito:** San Juan de Lurigancho <br> - **Momento que inicia:** 30:25 <br> - **Momento que termina:** 34:11 <br> - **Duración:** 3 min 86 seg | Javier no había considerado alquilar su bici, pero lo encuentra atractivo ahora. Quiere control sobre precios, necesita garantías de seguridad (GPS, seguro) y soporte. Considera que recomendaría la app solo si funciona sin generar estrés ni riesgos. | ![captura](images/javier.png)              |
 
 </div>
 
@@ -1294,6 +1294,8 @@ Heurística violada: Usabilidad – Libertad y control del usuario
 
 Descripción: En la vista de reservas (Reservations-owner), no existe un botón visible para regresar al home o panel principal del propietario.
 
+![captura](images/problema1.png)  
+
 Recomendación: Incluir un botón “Volver al inicio” visible en el menú o en la parte superior de la interfaz. 
 
 ### PROBLEMA #2
@@ -1302,6 +1304,8 @@ Severidad: 2
 Heurística violada: Usabilidad – Consistencia y estándares
 
 Descripción: El estilo de íconos y botones varía entre renter y owner, afectando la predictibilidad de la navegación.
+
+![captura](images/problema2.png)  
 
 Recomendación: Unificar diseño visual y estructura de navegación en ambos roles.
 
@@ -1312,6 +1316,8 @@ Heurística violada: Usabilidad – Prevención de errores
 
 Descripción: En el formulario de registro no se valida adecuadamente el campo email, permitiendo textos no válidos.
 
+![captura](images/problema3.png)  
+
 Recomendación: Agregar validación HTML y mensajes de error amigables para campos clave.
 
 ### PROBLEMA #4
@@ -1320,6 +1326,8 @@ Severidad: 3
 Heurística violada: Inclusive Design – Feedback perceptible
 
 Descripción: El usuario no recibe retroalimentación visual después de enviar una consulta desde la sección de soporte.
+
+![captura](images/problema4.png)  
 
 Recomendación: Mostrar un mensaje de confirmación, animación o alerta para asegurar al usuario que su solicitud fue procesada.
 
@@ -1330,6 +1338,8 @@ Heurística violada: Information Architecture – ¿Es entendible?
 
 Descripción: El mapa de bicicletas cercanas no incluye una leyenda que explique los pines o colores.
 
+![captura](images/problema5.png)  
+
 Recomendación: Añadir leyenda o íconos explicativos que brinden contexto inmediato.
 
 ### PROBLEMA #6
@@ -1338,6 +1348,8 @@ Severidad: 2
 Heurística violada: Usabilidad – Visibilidad del estado del sistema
 
 Descripción: Los campos no editables en la vista de perfil parecen campos interactivos, lo que genera confusión.
+
+![captura](images/problema6.png)  
 
 Recomendación: Utilizar colores más neutros o estados deshabilitados claros para distinguirlos visualmente.
 
@@ -1348,6 +1360,8 @@ Heurística violada: Usabilidad – Prevención de errores
 
 Descripción: En la vista de reserva (Home-renter), el botón de “Reservar” no solicita confirmación antes de ejecutar la acción, lo que puede llevar a clics accidentales.
 
+![captura](images/problema7.png)  
+
 Recomendación: Agregar un diálogo de confirmación (“¿Estás seguro de que deseas reservar esta bicicleta?”).
 
 ### PROBLEMA #8
@@ -1356,6 +1370,8 @@ Severidad: 2
 Heurística violada: Inclusive Design – Comprensión clara
 
 Descripción: En la vista de soporte (Support-renter), el campo de mensaje no tiene un texto guía o placeholder, lo que puede confundir sobre qué escribir.
+
+![captura](images/problema8.png)  
 
 Recomendación: Incluir un texto guía como “Escribe aquí tu duda o comentario”.
 
@@ -1366,6 +1382,8 @@ Heurística violada: Usabilidad – Visibilidad del estado del sistema
 
 Descripción: Al hacer login o registrarse, no se muestra un indicador de carga. El usuario no sabe si la app está procesando la solicitud.
 
+![captura](images/problema9.png)  
+
 Recomendación: Incluir un spinner o mensaje tipo “Iniciando sesión…” mientras se espera respuesta del servidor.
 
 ### PROBLEMA #10
@@ -1374,6 +1392,8 @@ Severidad: 1
 Heurística violada: Usabilidad – Estética y diseño minimalista
 
 Descripción: En la vista del perfil (Profile-owner), hay mucho espacio en blanco sin propósito, lo que puede generar una percepción de diseño incompleto.
+
+![captura](images/problema10.png)  
 
 Recomendación: Reorganizar elementos para usar mejor el espacio o incluir sección de “Datos adicionales”.
 
@@ -1384,6 +1404,8 @@ Heurística violada: Usabilidad – Control y libertad del usuario
 
 Descripción: El usuario no puede cancelar una reserva desde la vista Reservations-owner. Esta limitación obliga a depender del administrador.
 
+![captura](images/problema11.png)  
+
 Recomendación: Añadir botón de “Cancelar reserva” con opción de justificación.
 
 ### PROBLEMA #12
@@ -1392,6 +1414,8 @@ Severidad: 2
 Heurística violada: Information Architecture – ¿Es encontrable?
 
 Descripción: La navegación lateral no tiene resaltado activo del módulo en el que se encuentra el usuario.
+
+![captura](images/problema12.png)  
 
 Recomendación: Añadir estilos o resaltado (como subrayado o color) al ítem del menú activo.
 
