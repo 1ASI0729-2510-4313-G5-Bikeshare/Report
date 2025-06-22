@@ -94,6 +94,27 @@ Abril 2025
         </ul>
       </td>
   </tr>
+  <tr>
+      <td><strong>TB2</strong></td>
+      <td>Mayo</td>
+      <td>
+        <ul>
+            <li>Rodrigo Alaya Cabrera </li> 
+            <li>Niurka Lucero Huarcaya Quispe </li> 
+            <li>José Luis Martinez Valdivia</li> 
+            <li>Maria Fernanda Mostajo Orosco</li> 
+            <li>Karen Stephanie Ramos Carpio</li> 
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes capítulos:
+        <ul>
+        <li>Segunda version del Frontend web applications y Web Service (API)</li>
+          <li>Capítulo V: Product Implementation, Validation & Deployment Sprint 3</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
