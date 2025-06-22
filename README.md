@@ -159,6 +159,19 @@ Abril 2025
           </p>
         <p>- Maria Fernanda Mostajo: Para esta entrega, cumplí con comunicarme oralmente de forma efectiva al colaborar en la organización del capitulo V de nuestro proyecto, específicamete en la elaboración del team collaboration insights during sprint. Asimismo participé en realizar la primera versión de Frontend Web Applications.<br>
           </p>
+	   <p><strong>TB2</strong></p>
+	   <p>- Karen Ramos: Durante esta entrega, participé en la presentación de los avances del Sprint 3, explicando claramente las funcionalidades implementadas y los retos técnicos encontrados. Adapté mi comunicación oral para que los stakeholders no técnicos comprendieran los impactos de las decisiones tomadas durante el desarrollo. Además, lideré una sesión de feedback con potenciales usuarios, aplicando un lenguaje empático y accesible para obtener insights valiosos. <br>
+	   </p>
+
+<p>- Rodrigo Alaya: En el marco del Sprint 3, presenté el avance del componente de geolocalización y la integración de filtros en la vista de mapa. Expliqué su impacto en la experiencia del usuario utilizando un lenguaje técnico accesible para los miembros del equipo no programadores. También participé activamente en una sesión de revisión con stakeholders, ajustando mi discurso según el nivel técnico de los interlocutores. <br> 
+</p>
+
+<p>Jose Martinez: Esta entrega me permitió mejorar mi comunicación oral al coordinar con diferentes miembros del equipo sobre la integración de código y testing. Expliqué de forma clara los pasos necesarios para evitar conflictos en la rama de desarrollo y cómo debían documentarse los cambios, asegurando una comprensión compartida por todos. <br>
+</p>
+
+<p>- Niurka Huarcaya: Para esta fase del proyecto, realicé una exposición del avance del perfil de usuario, orientando mi discurso a públicos tanto técnicos como no técnicos. Expliqué la lógica de navegación, los flujos de usuario y su correspondencia con los criterios de negocio, haciendo uso de diagramas y wireframes para facilitar la comprensión. <br> </p>
+
+<p>- Maria Fernanda Mostajo: Durante el desarrollo del Sprint 3, participé en una presentación conjunta sobre las funcionalidades de login y home, explicando tanto el diseño como la lógica de implementación. Ajusté mi comunicación para que todos los miembros del equipo entendieran los componentes desarrollados y el impacto en la usabilidad. <br> </p>
 	</td>
           <td>
 		  <p><strong>TB1</strong></p>
@@ -166,6 +179,10 @@ Abril 2025
                   interlocutores, logrando una comunicación oral efectiva en contextos tanto colaborativos como investigativos.</p>
       <p><strong>TP1</strong></p>
 		  <p>La participación en reuniones de equipo y en la entrevista contribuyó al desarrollo de mi habilidad para comunicar ideas con claridad, empatía y adecuación al tipo de interlocutor, lo que facilitó una comunicación oral eficaz en entornos colaborativos e investigativos.</p>
+		  <p><strong>TB2</strong></p>
+		  <p>La entrega TB2 nos permitió consolidar nuestras habilidades de comunicación efectiva en entornos colaborativos multidisciplinarios. A través de presentaciones orales, documentación técnica y contenido orientado a usuarios finales, logramos adaptar nuestro lenguaje, formato y estilo a diversas audiencias. Esta experiencia fortaleció nuestra capacidad para transmitir ideas de forma clara, estructurada y empática, elemento clave para el éxito de cualquier proyecto tecnológico.
+
+</p>
 	 </td>
       <br>
      </tr>
@@ -193,13 +210,28 @@ Abril 2025
           </p>
         <p>- Maria Fernanda Mostajo: Para esta entrega, me encargué de redactar el capitulo V, en la sección de team collaboration insights during sprint. Asimismo, desarrolle el contenido del Frontend Web Applications, en la sección de login, sign up y home.<br>
           </p>
+	<p><strong>TB1</strong>
+<p>- Karen Ramos: Me encargué de documentar los resultados del Sprint 3 en el informe del capítulo 6, redactando secciones que resumen los avances técnicos y su impacto en el cumplimiento de los objetivos del producto. También edité contenidos para la sección “FAQ” de la Landing Page, utilizando un lenguaje accesible y enfocado en resolver dudas de usuarios finales.<br> </p>
+
+<p>- Rodrigo Alaya: Documenté las mejoras del sistema de filtrado y geolocalización en la bitácora técnica del proyecto, empleando una redacción clara y organizada. Aseguré que los comentarios en el código, los commits y las convenciones siguieran una estructura comprensible para desarrolladores y diseñadores. <br> </p>
+
+<p>- Jose Martinez: Redacté instrucciones claras sobre el proceso de merge y testing de las ramas principales, elaborando una guía interna que sirvió como referencia para el equipo. También revisé y consolidé reportes de avance para su presentación formal.<br> </p>
+
+<p>- Niurka Huarcaya: Contribuí con la redacción de la sección de funcionalidades desarrolladas en el Sprint 3, enfocándome en explicar su valor desde la perspectiva del usuario y del negocio. Utilicé lenguaje técnico cuando fue necesario, pero aseguré su comprensión mediante definiciones y ejemplos claros.<br> </p>
+
+<p>- Maria Fernanda Mostajo: Redacté contenido para las secciones del Frontend Web Applications (login y home), explicando las decisiones de diseño y la lógica detrás de cada funcionalidad. También colaboré en la consolidación del documento de entregables del Sprint 3, usando un estilo claro y orientado a la presentación académica.<br> </p>
 	</td>
         <td>
 		  <p><strong>TB1</strong></p>
 		  <p>La realizacion de la TB1 nos permitio conocer mejor las necesidades de mercado y como llegara nuestro publico objetivo.</p>
       <p><strong>TP1</strong></p>
 		  <p>La realización del TP1 nos permitió desarrollar el capítulo 5, ejecutar el Sprint 2 y construir la primera versión del frontend de la aplicación web, lo que fortaleció nuestra comprensión del mercado y de las estrategias necesarias para alcanzar de forma efectiva a nuestro público objetivo.</p>
-	 </td>     
+	<p><strong>TB2</strong></p>
+ <p>Gracias a la entrega TB2, mejoramos significativamente nuestra capacidad para comunicar tanto verbal como gráficamente los avances del proyecto, lo que facilitó la toma de decisiones y el alineamiento entre los distintos perfiles del equipo. La combinación de comunicación oral en presentaciones y reuniones, junto con una documentación escrita clara y accesible, aseguró que todos los actores comprendieran el valor entregado en cada sprint, promoviendo una colaboración eficiente y enfocada en los objetivos del producto.
+
+</p>
+ 
+	</td>     
       <br>
      </tr>
      
