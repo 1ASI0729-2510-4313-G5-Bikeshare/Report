@@ -554,7 +554,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
 <tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Prepared By</td><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Jose Martinez</td></tr>
 <tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Attendees</td><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Todos los miembros de BikeShare</td></tr>
 <tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;" colspan="2"><strong>Sprint Goal; User Stories</strong></td></tr>
-<tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Sprint 3 Goal</td><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;"> Nuestro enfoque en este sprint se centra en la delegación de tareas para el desarrollo del backend del aplicativo, con el objetivo de mejorar la eficiencia y optimizar la implementación dentro del equipo de desarrollo. Creemos que esta estrategia permitirá una distribución más clara de responsabilidades, facilitando la integración de los componentes y asegurando que cada parte cumpla con los requisitos de diseño y funcionalidad establecidos. La confirmación de este impacto se dará cuando la estructura y los elementos del backend se implementen correctamente y su rendimiento cumpla con las expectativas del producto.</td></tr>
+<tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Sprint 3 Goal</td><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;"> Nuestro enfoque en este sprint se centra en la delegación de tareas para el desarrollo del backend del aplicativo, centrandonos en los bounded context de BikeInventory, Notification, ReservationManagement y ReviewFeedback. Además, se añadirán secciones al landing page y se mejorarán las vistas del Frontend con el objetivo de mejorar la eficiencia y optimizar la implementación dentro del equipo de desarrollo. En cuanto a la documentación, se actualizarán las historias de usuario y product bakclog de acuerdo a lo que se desarrolle. Creemos que esta estrategia permitirá una distribución más clara de responsabilidades, facilitando la integración de los componentes y asegurando que cada parte cumpla con los requisitos de diseño y funcionalidad establecidos. La confirmación de este impacto se dará cuando la estructura y los elementos del backend se implementen correctamente y su rendimiento cumpla con las expectativas del producto.</td></tr>
 <tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Sprint 3 Velocity</td><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;"><strong> 19 </strong></td></tr>
 <tr><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;">Sum of Story Points</td><td style="border:1pt solid #000000;padding:5pt;vertical-align:top;"><strong> 51 </strong></td></tr>
 </tbody>
@@ -602,7 +602,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Diseñar e implementar la entidad Rental en la base de datos y asegurarse de que se cumplen las reglas del dominio</td>
       <td>5 hr</td>
       <td>José Luis Martinez</td>
-      <td>Done</td>
+      <td>In Process</td>
     </tr>
     <tr>
       <td>T02</td>
@@ -624,11 +624,11 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td rowspan="3">US12</td>
       <td rowspan="3">Registro de una bicicleta</td>
       <td>T04</td>
-      <td>Modelar entidad Bike</td>
+      <td>Modelar Aggregate Bike</td>
       <td>Crear Aggregate Bike y lógica para registro de bicicletas</td>
       <td>5 hr</td>
       <td>Maria Fernanda Mostajo</td>
-      <td>Done </td>
+      <td>In process </td>
     </tr>
     <tr>
       <td>T05</td>
@@ -636,7 +636,7 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Implementar el caso de uso y endpoint POST /api/v1/bikes</td>
       <td>6 hr</td>
       <td>Niurka Huarcaya  </td>
-      <td>Done </td>
+      <td>In process</td>
     </tr>
     <tr>
       <td>T06</td>
@@ -647,8 +647,8 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Done </td>
     </tr>
     <tr>
-      <td rowspan="1">US21</td>
-      <td rowspan="1">Visualización de detalles de bicicletas</td>
+      <td rowspan="2">US21</td>
+      <td rowspan="2">Visualización de detalles de bicicletas</td>
       <td>T07</td>
       <td>Obtener detalles de bicicletas</td>
       <td>Implementar endpoint GET /api/v1/bikes/{id} para mostrar toda la información necesaria</td>
@@ -656,43 +656,68 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
       <td>Karen Ramos</td>
       <td>Done </td>
     </tr>
-     <tr>
-      <td rowspan="2">US23</td>
-      <td rowspan="2">Gestión de alquileres</td>
+    <tr>
       <td>T08</td>
+      <td>Vista de detalles en Frontend</td>
+      <td>Implementar un cuadro que muestre los detalles de cada bicicleta </td>
+      <td>4 hr</td>
+      <td>Rodrigo Alaya</td>
+      <td>Done</td>
+    </tr>
+     <tr>
+      <td rowspan="3">US23</td>
+      <td rowspan="3">Gestión de alquileres</td>
+      <td>T09</td>
       <td>Listar las rentas de arrendatario</td>
       <td>Implementar endpoint GET /api/v1/{userId}/rentals para mostrar todas las reservas del arrendatario</td>
       <td>4 hr</td>
       <td>Jose Luis Martinez </td>
       <td>Done </td>
     <tr>
-      <td>T09</td>
+      <td>T10</td>
       <td>Cancelación de reserva</td>
       <td>Implementar endpoint para cancelar una reserva del arrendatario</td>
       <td>4 hr</td>
       <td>Rodrigo Alaya </td>
       <td>Done </td>
     </tr>
+    <tr>
+      <td>T11</td>
+      <td>Vista de reservas en Frontend</td>
+      <td>Implementar la vista para mostrar las reservas del arrendatario</td>
+      <td>4 hr</td>
+      <td>Rodrigo Alaya </td>
+      <td>Done </td>
+    </tr>
     </tr>
     <tr>
-      <td rowspan="2">US17</td>
-      <td rowspan="2">Calificaciones y comentarios de arrendatarios</td>
-      <td>T10</td>
-      <td>Modelar entidad Review</td>
+      <td rowspan="3">US17</td>
+      <td rowspan="3">Calificaciones y comentarios de arrendatarios</td>
+      <td>T12</td>
+      <td>Modelar Aggregate Review</td>
       <td>Crear Aggregate Review y lógica para registro de reseñas</td>
       <td>5 hr</td>
       <td>Maria Fernanda Mostajo</td>
       <td>Done </td>
     <tr>
-      <td>T11</td>
+      <td>T13</td>
       <td>Listar las reseñas</td>
       <td>Implementar endpoint para mostrar todas las reseñas del arrendatario</td>
       <td>4 hr</td>
       <td>Niurka Huarcaya</td>
       <td>Done </td>
     </tr>
+    <tr>
+      <td>T14</td>
+      <td>Vista de reseñas en Frontend</td>
+      <td>Implementar vista de reseñas del arrendador en el perfil del arrendador</td>
+      <td>4 hr</td>
+      <td>Rodrigo Alaya</td>
+      <td>Done </td>
+    </tr>
   </tbody>
 </table>
+
 
 <img src="https://files.catbox.moe/psm6nt.png" alt="Sprint2-trello" border="0">
 
@@ -1169,38 +1194,38 @@ Durante este sprint, la colaboración del equipo se mantuvo constante y bien org
 
 Para cada uno de los segmentos identificados, se han formulado las siguientes preguntas:
 
-    ### Segmento #1: Personas interesadas en alquilar bicicletas (Arrendatarios)
+### Segmento #1: Personas interesadas en alquilar bicicletas (Arrendatarios)
 
-     - ¿Cuál es su nombre, edad y en qué distrito vive?
-     - ¿Cuándo fue la última vez que tuvo dificultades para movilizarse en la ciudad?
-     - ¿Qué hizo en ese momento? ¿Cómo se sintió?
-     - ¿Alguna vez pensó: “Si tuviera una bicicleta en este momento, sería más fácil”?
-     - ¿Qué opinas de una app donde puedas alquilar bicicletas de personas que las comparten cerca de ti?
-     - Si esta app existiera mañana, ¿la descargarías y la usarías? ¿Por qué sí o por qué no?
-     - ¿Qué te haría sentir confianza para alquilar la bici de alguien que no conoces?
-     - ¿Qué debería tener una app así para que digas: “vale la pena usarla”?
-     - ¿Preferirías alquilar bicicletas por minutos, por horas o por recorrido?
-     - ¿Cuánto estarías dispuesto a pagar por un alquiler promedio (ej. 30 minutos)?
-     - ¿Has usado alguna vez un scooter o bici compartida como CityBike, Lime o similar?
-     - ¿Qué fue lo mejor y lo peor de esa experiencia?
-     - Si te invitáramos a probar una versión inicial de la app, ¿estarías dispuesto/a a usarla durante una semana?
-     - ¿Nos darías feedback después de probarla?
+- ¿Cuál es su nombre, edad y en qué distrito vive?
+- ¿Cuándo fue la última vez que tuvo dificultades para movilizarse en la ciudad?
+- ¿Qué hizo en ese momento? ¿Cómo se sintió?
+- ¿Alguna vez pensó: “Si tuviera una bicicleta en este momento, sería más fácil”?
+- ¿Qué opinas de una app donde puedas alquilar bicicletas de personas que las comparten cerca de ti?
+- Si esta app existiera mañana, ¿la descargarías y la usarías? ¿Por qué sí o por qué no?
+- ¿Qué te haría sentir confianza para alquilar la bici de alguien que no conoces?
+- ¿Qué debería tener una app así para que digas: “vale la pena usarla”?
+- ¿Preferirías alquilar bicicletas por minutos, por horas o por recorrido?
+- ¿Cuánto estarías dispuesto a pagar por un alquiler promedio (ej. 30 minutos)?
+- ¿Has usado alguna vez un scooter o bici compartida como CityBike, Lime o similar?
+- ¿Qué fue lo mejor y lo peor de esa experiencia?
+- Si te invitáramos a probar una versión inicial de la app, ¿estarías dispuesto/a a usarla durante una semana?
+- ¿Nos darías feedback después de probarla?
    
 
-    ### Segmento #2: Personas dispuestas a rentar sus bicicletas (Arrendadores)
+### Segmento #2: Personas dispuestas a rentar sus bicicletas (Arrendadores)
 
-     - ¿Tienes una bicicleta que no usas frecuentemente? ¿Con qué frecuencia la usas realmente?
-     - ¿Te gustaría generar ingresos extra con ella?
-     - ¿Qué te parece la idea de compartir tu bici con otros mediante una app, a cambio de un pago?
-     - ¿Qué cosas te generarían más dudas o temores sobre hacerlo?
-     - ¿Qué tendría que ofrecerte una app para que te animes a poner tu bici en alquiler?
-     - ¿Te interesaría poder decidir a quién se la alquilas? ¿Por cuánto tiempo?
-     - ¿Qué nivel de ingreso mensual te parecería interesante para participar?
-     - ¿Qué herramientas necesitas para sentir que tienes control sobre el uso de tu bicicleta?
-     - ¿Qué medidas de seguridad o garantías debería darte la app?
-     - ¿Te gustaría tener alertas, geolocalización, seguro, o soporte técnico?
-     - Si te diéramos acceso a una versión beta para que publiques tu bici por una semana, ¿te animarías a probarla?
-     - ¿Qué necesitarías para recomendar esta app a tus amigos ciclistas?
+- ¿Tienes una bicicleta que no usas frecuentemente? ¿Con qué frecuencia la usas realmente?
+- ¿Te gustaría generar ingresos extra con ella?
+- ¿Qué te parece la idea de compartir tu bici con otros mediante una app, a cambio de un pago?
+- ¿Qué cosas te generarían más dudas o temores sobre hacerlo?
+- ¿Qué tendría que ofrecerte una app para que te animes a poner tu bici en alquiler?
+- ¿Te interesaría poder decidir a quién se la alquilas? ¿Por cuánto tiempo?
+- ¿Qué nivel de ingreso mensual te parecería interesante para participar?
+- ¿Qué herramientas necesitas para sentir que tienes control sobre el uso de tu bicicleta?
+- ¿Qué medidas de seguridad o garantías debería darte la app?
+- ¿Te gustaría tener alertas, geolocalización, seguro, o soporte técnico?
+- Si te diéramos acceso a una versión beta para que publiques tu bici por una semana, ¿te animarías a probarla?
+- ¿Qué necesitarías para recomendar esta app a tus amigos ciclistas?
      
 ### 5.3.2. Registro de Entrevistas.
 
