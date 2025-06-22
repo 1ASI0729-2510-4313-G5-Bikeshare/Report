@@ -505,7 +505,8 @@ Durante este sprint se completaron importantes avances en la ejecución del Fron
 
 Estas funcionalidades consolidan la base operativa de la plataforma, permitiendo una experiencia inicial completa para ambas partes del sistema: usuarios que buscan servicios de reparación y técnicos que los ofrecen.
 
-Link del proyecto: https://lucky-treacle-8d6a1c.netlify.app/
+Link: https://bike-share-4bb53.web.app 
+(Credenciales: RENTER: renter@gmail.com - 123456 OWNER: owner@gmail.com - 123456)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -522,7 +523,7 @@ A continuación, se muestran las capturas del despliegue del Frontend de la apli
 
 <br>
 
-- Netlify:  <br>
+- Netlify:  <br> 
 <br>
 
 ![Netlify](images/Netlify.png)
@@ -1134,7 +1135,6 @@ Durante el Sprint 3 se implementaron los siguientes endpoints en el backend de l
   </tbody>
 </table>
 
-A continuación se presenta un resumen de los endpoints disponibles y sus principales operaciones:
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 A continuación, se muestran las capturas del despliegue de la API junto a las base de datos:
 
