@@ -245,8 +245,9 @@ URL Project Report (Github): https://github.com/upc-pre-2025101asi0729-RepoRange
 URL Landing Page: https://1asi0729-2510-4313-g5-bikeshare.github.io/LandingPage/
 <br>
 URL FrontEnd: https://bike-share-4bb53.web.app
+(Credenciales: RENTER: renter@gmail.com - 123456  OWNER: owner@gmail.com - 123456)
 <br>
-URL BackEnd: https://backend-i9ji.onrender.com
+URL BackEnd: https://backend-crht.onrender.com
 
 ### [Capítulo I: Introducción]()
 - [1.1. Startup Profile]()
