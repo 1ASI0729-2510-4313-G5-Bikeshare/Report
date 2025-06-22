@@ -174,7 +174,7 @@ Abril 2025
 <p>- Maria Fernanda Mostajo: Durante el desarrollo del Sprint 3, participé en una presentación conjunta sobre las funcionalidades de login y home, explicando tanto el diseño como la lógica de implementación. Ajusté mi comunicación para que todos los miembros del equipo entendieran los componentes desarrollados y el impacto en la usabilidad. <br> </p>
 	</td>
           <td>
-		  <p><strong>TB1</strong></p>
+		  <p><strong>TB2</strong></p>
 		  <p>Nuestra participación en reuniones de equipo y en la entrevista nos permitió fortalecer mi capacidad para expresar ideas de manera clara, empática y adaptada a distintos 
                   interlocutores, logrando una comunicación oral efectiva en contextos tanto colaborativos como investigativos.</p>
       <p><strong>TP1</strong></p>
