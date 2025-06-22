@@ -332,7 +332,7 @@ URL BackEnd: https://backend-crht.onrender.com
 
 ---
 
-# **Clonclusiones**
+# **Conclusiones**
 
 BikeShare se perfila como una solución pertinente y técnicamente robusta frente a la urgente necesidad de micromovilidad sostenible en Lima Metropolitana. A partir de entrevistas y mapas de empatía, se constató que la seguridad, la disponibilidad en tiempo real y la transparencia son requisitos ineludibles para arrendatarios y arrendadores. La plataforma responde a estas expectativas mediante geolocalización precisa, pagos digitales integrados y un sistema de reputación que refuerza la confianza entre pares, todo dentro de un proceso Lean UX que promueve la retroalimentación continua y la iteración ágil.
 
@@ -350,6 +350,10 @@ No obstante, el éxito inicial dependerá de superar la desconfianza inherente a
 ### Anexo B – Video de exposición
 
 - Video de exposición del proyecto: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/EbFarmpFNARDlujplVrUeYMBQf0MNmD58sFBr6SLHeBY1A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hqB1dK>
+
+### Anexo C – Video About the Team
+
+- Video de exposicion del equipo: <https://www.youtube.com/watch?v=3q7M2EBvo00>
 
 
 ---
